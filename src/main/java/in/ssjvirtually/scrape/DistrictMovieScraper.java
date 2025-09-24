@@ -12,7 +12,7 @@ import java.util.List;
 public class DistrictMovieScraper {
 
     public static void main(String[] args) throws IOException {
-        String url = "https://www.district.in/movies/miraj-cinemas-geeta-chandanagar-hyderabad-in-hyderabad-CD10249?fromdate=2025-09-21";
+        String url = "https://www.district.in/movies/miraj-cinemas-geeta-chandanagar-hyderabad-in-hyderabad-CD10249?fromdate=2025-09-25";
 
         Document doc = Jsoup.connect(url)
                 .userAgent("Mozilla/5.0") // spoof browser agent
